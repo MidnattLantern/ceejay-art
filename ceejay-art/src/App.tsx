@@ -28,53 +28,53 @@ function App() {
       <p>Illustrated by Midnatt Lantern</p>
       <div className="Gallery">
         <div className="Image">
-          <img src={PreviewSideCroppedAlt} alt="Side Cropped Alternative"/>
-          <h2>Side Cropped Alt</h2>
+          <img src={PreviewSideCroppedAlt} alt="Side Cropped Alternative" width={2000} height={2000}/>
+          <h2><span>Side Cropped</span><span>Alternative</span></h2>
           <a href={SideCroppedAlt} download type="image/png">Download</a>
         </div>
         <div className="Image">
-          <img src={PreviewSideCroppedNoPaint} />
-          <h2>Side Cropped No Paint</h2>
+          <img src={PreviewSideCroppedNoPaint} alt="Side Cropped No Paint" width={2000} height={2000}/>
+          <h2><span>Side Cropped</span><span>No Paint</span></h2>
           <a href={SideCroppedNoPaint} download type="image/png">Download</a>
         </div>
         <div className="Image">
-          <img src={PreviewSideCropped} />
-          <h2>Side Cropped</h2>
+          <img src={PreviewSideCropped} alt="Side Cropped" width={2000} height={2000}/>
+          <h2><span>Side Cropped</span></h2>
           <a href={SideCropped} download type="image/png">Download</a>
         </div>
         <div className="Image">
-          <img src={PreviewSideLosslessAlt} />
-          <h2>Side Losless Alt</h2>
+          <img src={PreviewSideLosslessAlt} alt="Side Lossless Alternative" width={2000} height={2000}/>
+          <h2><span>Side Lossless</span><span>Alternative</span></h2>
           <a href={SideLosslessAlt} download type="image/png">Download</a>
         </div>
         <div className="Image">
-          <img src={PreviewSideLosslessNoPaint} />
-          <h2>Side Lossless No Paint</h2>
+          <img src={PreviewSideLosslessNoPaint} alt="Side Lossless No Paint" width={2000} height={2000}/>
+          <h2><span>Side Lossless</span><span>No Paint</span></h2>
           <a href={SideLosslessNoPaint} download type="image/png">Download</a>
         </div>
         <div className="Image">
-          <img src={PreviewSideLossless} />
-          <h2>Side Lossless</h2>
+          <img src={PreviewSideLossless} alt="Side Lossless" width={2000} height={2000}/>
+          <h2><span>Side Lossless</span></h2>
           <a href={SideLossless} download type="image/png">Download</a>
         </div>
         <div className="Image">
-          <img src={PreviewUpsideCroppedNoPaint} />
-          <h2>Upside Cropped No Paint</h2>
+          <img src={PreviewUpsideCroppedNoPaint} alt="Upside Cropped No Paint" width={621} height={621}/>
+          <h2><span>Upside Cropped</span><span>No Paint</span></h2>
           <a href={UpsideCroppedNoPaint} download type="image/png">Download</a>
         </div>
         <div className="Image">
-          <img src={PreviewUpsideCropped} />
-          <h2>Upside Cropped</h2>
+          <img src={PreviewUpsideCropped} alt="Upside Cropped" width={621} height={621}/>
+          <h2><span>Upside Cropped</span></h2>
           <a href={UpsideCropped} download type="image/png">Download</a>
         </div>
         <div className="Image">
-          <img src={PreviewUpsideLosslessNoPaint} />
-          <h2>Upside Lossless No Paint</h2>
+          <img src={PreviewUpsideLosslessNoPaint} alt="Upside Lossless No Paint" width={2500} height={2000}/>
+          <h2><span>Upside Lossless</span><span>No Paint</span></h2>
           <a href={UpsideLosslessNoPaint} download type="image/png">Download</a>
         </div>
         <div className="Image">
-          <img src={PreviewUpsideLossless} />
-          <h2>Upside Lossless</h2>
+          <img src={PreviewUpsideLossless} alt="Upside Lossless" width={2500} height={2000}/>
+          <h2><span>Upside Lossless</span></h2>
           <a href={UpsideLossless} download type="image/png">Download</a>
         </div>
       </div>

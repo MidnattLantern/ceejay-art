@@ -34,6 +34,10 @@
     font-family: sans-serif;
 }
 
+.Image h2 span {
+  display: block;
+}
+
 .Image a {
     bottom: 20px;
     left: 20px;
@@ -60,7 +64,7 @@
     transition: all 0.2s ease;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
     .Image {
         width: calc(20vw - 10px);
     }
