@@ -6,10 +6,58 @@
 }
 
 .Image {
+    position: relative;
     width: calc(50vw - 20px);
     height: auto;
     aspect-ratio: 1/1;
+    overflow: hidden;
+}
+
+.Image img,
+.Image h2,
+.Image a {
+    position: absolute;
+}
+
+.Image img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+}
+
+.Image h2 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(180deg,rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    font-family: sans-serif;
+}
+
+.Image a {
+    bottom: 20px;
+    left: 20px;
+}
+
+.Image h2,
+.Image a {
+    opacity: 0;
+    transition: all 0.2s ease;
+    z-index: 1;
+}
+
+.Image:hover h2,
+.Image:hover a,
+.Image:focus-within h2,
+.Image:focus-within a {
+    opacity: 1;
+    transition: all 0.2s ease;
+}
+
+.Image:hover img,
+.Image:focus-within img {
+    transform: scale(1.05);
+    transition: all 0.2s ease;
 }
 
 @media screen and (min-width: 1000px) {
